@@ -1,0 +1,6 @@
+worker_after_drop_view_stmt_postgres = ""
+worker_after_create_view_stmt_postgres = ""
+worker_after_drop_view_stmt_mysql = ""
+worker_after_create_view_stmt_mysql = ""
+worker_after_drop_view_stmt_sqlite = ""
+worker_after_create_view_stmt_sqlite = ""
