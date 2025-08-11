@@ -58,7 +58,7 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            registry.cn-hangzhou.aliyuncs.com/raiko/python-server-init:latest
-            registry.cn-hangzhou.aliyuncs.com/raiko/python-server-init:${{ github.ref_name }}
+            registry.cn-hangzhou.aliyuncs.com/raiko/yolo-server:latest
+            registry.cn-hangzhou.aliyuncs.com/raiko/yolo-server:${{ github.ref_name }}
           build-args: |
             PYTHON_VERSION=3.12
